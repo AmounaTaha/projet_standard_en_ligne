@@ -7,12 +7,38 @@
     height: 53px;
 }
 
-#top_section ul{
+#top_section ul,#top_section ul div.svg li{
     display: flex;
     margin-top: 10px;
-    /* justify-self: center; */
-    /* vertical-align: middle; */
-    justify-content: space-evenly;
+    justify-content:center;
+    margin-right: 40px;
+    margin-left: 50px;
 }
+
+#top_section ul div{
+    justify-content:center;
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+#top_section ul div.svg{
+    margin-left: 0px;
+}
+
+#top_section ul div.svg li{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#top_section ul div.svg li svg{
+    margin-right: 6px;
+}
+
+
+/* #top_section ul div button{
+    margin-left: -100px;
+} */
+
 
 

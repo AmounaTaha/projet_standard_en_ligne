@@ -8,15 +8,34 @@
     opacity: 1;
 }
 
-#Left_section h1.title{
+/* #Left_section h1.title{
     margin-left: 35px;
     height: 110px;
+} */
+
+#Left_section svg{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 110px;
+    width: 145px;
 }
 
-#Left_section div.nav ul{
+
+#Left_section div.nav ul, #Left_section div.nav ul div{
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+
+    margin-left: -8px;
+}
+
+#Left_section div.nav ul div svg{
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+    /* UI Properties */
+    color: #264A6E 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 #Left_section div.nav ul div.sign_out{
