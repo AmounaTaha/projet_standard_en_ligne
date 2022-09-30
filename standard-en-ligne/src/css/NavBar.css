@@ -1,0 +1,24 @@
+#Left_section{
+    top: 0px;
+    left: 0px;
+    width: 193px;
+    height: 688px;
+    background: #E5E7EB 0% 0% no-repeat padding-box;
+    color: #264A6E;
+    opacity: 1;
+}
+
+#Left_section h1.title{
+    margin-left: 35px;
+    height: 110px;
+}
+
+#Left_section div.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#Left_section div.nav ul div.sign_out{
+    margin-top: 310px;
+}

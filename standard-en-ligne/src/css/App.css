@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+	box-sizing: content-box;
+    font: normal normal medium 10px/13px Montserrat;
+}
+
+button{
+    width: 150px;
+    height: 27px;
+    color: #FFFFFF;
+    background: #F74A53 0% 0% no-repeat padding-box;
+    border: #F74A53;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+ul li{
+   list-style: none;
+}
+
+#sections{
+    display:inline-flex ;
+    max-width: 100vw;
+    max-height: 100vh;
+}

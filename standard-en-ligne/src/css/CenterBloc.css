@@ -1,0 +1,269 @@
+p{
+  font: normal normal 600 12px/15px Montserrat;
+}
+
+#bloc{
+    position: absolute;
+    top: 139px;
+    left: 440px;
+    width: 659px;
+    height: 151px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 40px #15223214;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+#bloc div#topbloc,#bloc div#topbloc div, #bloc div#centerbloc div.title, #bloc div#bottombloc{
+    display: flex;
+    justify-content:safe;
+    margin-top: -50px;
+}
+
+#bloc div#topbloc p.p{
+    width: 300px;
+}
+
+#bloc div#topbloc div{
+    margin-top: 0px;
+    transform: translateX(55px);
+}
+
+#bloc div#topbloc p{
+    width: 200px; 
+    margin-left: 50px;
+}
+
+#bloc div#topbloc div p{
+  font: normal normal medium 12px/15px Montserrat;
+}
+
+#bloc div#topbloc div form select.pays{
+    width: 76px;
+    margin-left: -75px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#bloc div#centerbloc div.title{
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+
+#bloc div#centerbloc div.form{
+    margin-left: 50px;
+}
+
+#bloc div#centerbloc div.form input{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+
+    /* text-align: center; */
+    font: normal normal medium 10px/13px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+    border-radius: 50%;
+    border: none;
+    background: #F74A53 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#bloc div#centerbloc div.form input:nth-child(6),#bloc div#centerbloc div.form input:nth-child(7){
+    background: #CAC4C4 0% 0% no-repeat padding-box;
+}
+
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+/* https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+
+.range-slider {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+}
+
+.range-slider input {
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 15px;
+    width: 200px;
+    outline: none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+}
+
+.range-slider input::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -moz-appearance: none;
+    width: 9px;
+}
+
+.range-slider input::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 1);
+    border: 0;
+}
+
+.range-slider input:last-of-type::-moz-range-track {
+    -moz-appearance: none;
+    background: none transparent;
+    border: 0;
+}
+
+.range-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+
+.rangeValue {
+  width: 30px;
+}
+
+.output {
+  position: absolute;
+  border:1px solid #999;
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  color: #999;
+  border-radius: 4px;
+  display: inline-block;
+  font: bold 15px/30px Helvetica, Arial;
+  bottom: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.output.outputTwo {
+  left: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  background: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  height: 5px;
+  border: none;
+  border-radius: 3px;
+  background: transparent;
+}
+
+input[type=range]::-ms-track {
+  height: 5px;
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-moz-range-track {
+  height: 5px;
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #555;
+  margin-top: -5px;
+  position: relative;
+  z-index: 10000;
+}
+
+input[type=range]::-ms-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #555;
+  margin-top: -5px;
+  position: relative;
+  z-index: 10000;
+}
+
+input[type=range]::-moz-range-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #555;
+  margin-top: -5px;
+  position: relative;
+  z-index: 10000;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+.full-range,
+.incl-range {
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 21px;
+  position: absolute;
+  background: #DDD;
+}
+
+.incl-range {
+  background: gold;
+}
+
+#bloc div#centerbloc div.reinitialisation{
+  margin-left: 50px;
+  margin-top: 40px;
+  font: normal normal medium 10px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #9F9B9B;
+  opacity: 1;
+}
+
+#bloc div#bottombloc{
+  justify-content:safe;
+  margin-top: 50px;
+  margin-left: 108px;
+  font: normal normal medium 12px/15px Montserrat;
+}
+
+#bloc div#bottombloc p{
+  margin-right: 50px;
+  color: #264A6E;
+}
+
